@@ -1,7 +1,27 @@
 package practice01.OwnPractice;
 
 public class Product {
-    int cost;
+    //public(available outside the class) private(available only inside the class) protected(available only inside the daughter-classes)
     
-    String name;
+    private int cost;
+    private String name;
+
+        public Product(String name, int cost){
+            this.name = name;
+            this.cost = cost;
+        }
+        public String getName() {
+            return name;
+        }
+        public void setName (String name) {
+            this.name =  name;
+        }
+        public int getCost() {
+            return cost;
+        }
+        public void setCost(int cost) {
+            this.cost = cost;
+        }
+
+
 }
