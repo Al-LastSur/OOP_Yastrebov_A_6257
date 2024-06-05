@@ -38,8 +38,4 @@ public class VendingMachineBottleOfWater implements VendingMachine{
            } return null;
     }
 
-
-
-
-    
 }
