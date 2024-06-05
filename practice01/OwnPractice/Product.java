@@ -1,6 +1,6 @@
 package practice01.OwnPractice;
 
-public class Product {
+public abstract class Product {
     //public(available outside the class) private(available only inside the class) protected(available only inside the daughter-classes)
     
     private int cost;
@@ -22,6 +22,15 @@ public class Product {
         public void setCost(int cost) {
             this.cost = cost;
         }
+
+        @Override
+        public String toString() {
+            return "Product{" +
+                   "name='" + name + '\'' +
+                   ", cost=" + cost +
+                   '}';
+        }
+
 
 
 }
