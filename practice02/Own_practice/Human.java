@@ -1,4 +1,4 @@
-package ru.gb.oseminar;
+package practice02.Own_practice;
 
 public class Human extends Actor {
 

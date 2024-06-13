@@ -1,4 +1,4 @@
-package ru.gb.oseminar;
+package practice02.Own_practice;
 
 public interface QueueBehaviour {
     void takeInQueue(Actor actor);
