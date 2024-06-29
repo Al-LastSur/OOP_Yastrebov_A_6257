@@ -1,0 +1,37 @@
+Report on using SOLID proncople in the Code
+    - In relation to File Directory
+    * controller
+        StudentController.java
+    SOLID: all functions are related to the task of creating StudentGroup - one teacher + group of Students; it imnplements UserController as a parent class;
+        TeacherController.java
+    SOLID: all functions are related to creating a teacher and functioning with its information; it imnplements UserController as a parent class;
+        UserController.java
+    SOLID: a parent calss for TeacherController and StudentСontroller - the interface uses abstract variable extending USER, thus it cannot be changed but extended - so the case when a Student becomes a teacher is imposible;
+    * data
+        Student.java
+    SOLID: the class extends USER and implements COMPARABLE; studentId is added to the class;    
+        StudentGroup.java
+    SOLID: the class implements ITERABLE; 
+        StudentGroupIterator.java
+        Teacher.java
+    SOLID: the class extends USER and implements COMPARABLE; TeacherId is added to the class;
+        User.java
+    SOLID: all functions are related to the class USER only; the variables are closed to be modified but can be extended in classes TEACHER and STUDENT; classes TEACHER  and STUDENT perform the same functions as the USER;   
+        UserComparator.java
+    SOLID: only one main principle is released;
+    * service
+        StudentGroupService.java
+    SOLID: all functions related to the class STUDENTGROUP;
+        StudentService.java
+    SOLID: the class implements USERSERVICE interface with variable STUDENT; 
+        TeacherService.java
+    SOLID: the class implements USERSERVICE interface with variable TEACHER; 
+        UserService.java
+    SOLID: a parent interface with abstract variable to be used in inhereted cclasses;     
+    * view
+        StudentView.java
+    SOLID: the class implements USERVIEW with Student as variable;        
+        TeacherView.java
+    SOLID: the class implements USERVIEW with Teacher as variable; 
+        UserView.java
+    SOLID: only one function with abstract variable extending USER; It means it can be aplied to it and its inherit classes
