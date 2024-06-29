@@ -1,9 +1,9 @@
-package ru.gb.oseminar.controller;
+package HW06.OSeminar_4_master.src.main.java.ru.gb.oseminar.controller;
 
 
-import ru.gb.oseminar.data.Teacher;
-import ru.gb.oseminar.service.TeacherService;
-import ru.gb.oseminar.view.TeacherView;
+import HW06.OSeminar_4_master.src.main.java.ru.gb.oseminar.data.Teacher;
+import HW06.OSeminar_4_master.src.main.java.ru.gb.oseminar.service.TeacherService;
+import HW06.OSeminar_4_master.src.main.java.ru.gb.oseminar.view.TeacherView;
 
 import java.time.LocalDate;
 

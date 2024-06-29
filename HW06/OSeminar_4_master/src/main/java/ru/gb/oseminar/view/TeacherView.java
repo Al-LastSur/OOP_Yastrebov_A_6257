@@ -1,6 +1,6 @@
-package ru.gb.oseminar.view;
+package HW06.OSeminar_4_master.src.main.java.ru.gb.oseminar.view;
 
-import ru.gb.oseminar.data.Teacher;
+import HW06.OSeminar_4_master.src.main.java.ru.gb.oseminar.data.Teacher;
 
 import java.util.List;
 import java.util.logging.Logger;

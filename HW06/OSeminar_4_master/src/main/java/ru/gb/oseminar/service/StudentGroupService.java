@@ -1,9 +1,9 @@
-package ru.gb.oseminar.service;
+package HW06.OSeminar_4_master.src.main.java.ru.gb.oseminar.service;
 
-import ru.gb.oseminar.data.Student;
-import ru.gb.oseminar.data.UserComparator;
-import ru.gb.oseminar.data.StudentGroup;
-import ru.gb.oseminar.data.Teacher;
+import HW06.OSeminar_4_master.src.main.java.ru.gb.oseminar.data.Student;
+import HW06.OSeminar_4_master.src.main.java.ru.gb.oseminar.data.UserComparator;
+import HW06.OSeminar_4_master.src.main.java.ru.gb.oseminar.data.StudentGroup;
+import HW06.OSeminar_4_master.src.main.java.ru.gb.oseminar.data.Teacher;
 
 import java.util.ArrayList;
 import java.util.Collections;

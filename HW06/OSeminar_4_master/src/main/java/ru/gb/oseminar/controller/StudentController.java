@@ -1,10 +1,10 @@
-package ru.gb.oseminar.controller;
+package HW06.OSeminar_4_master.src.main.java.ru.gb.oseminar.controller;
 
-import ru.gb.oseminar.data.Student;
-import ru.gb.oseminar.data.Teacher;
-import ru.gb.oseminar.service.StudentGroupService;
-import ru.gb.oseminar.service.StudentService;
-import ru.gb.oseminar.view.StudentView;
+import HW06.OSeminar_4_master.src.main.java.ru.gb.oseminar.data.Student;
+import HW06.OSeminar_4_master.src.main.java.ru.gb.oseminar.data.Teacher;
+import HW06.OSeminar_4_master.src.main.java.ru.gb.oseminar.service.StudentGroupService;
+import HW06.OSeminar_4_master.src.main.java.ru.gb.oseminar.service.StudentService;
+import HW06.OSeminar_4_master.src.main.java.ru.gb.oseminar.view.StudentView;
 
 import java.time.LocalDate;
 import java.util.Collections;
