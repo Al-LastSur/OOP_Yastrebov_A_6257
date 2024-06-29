@@ -1,6 +1,6 @@
-package practice04.OSeminar_4_master.src.main.java.ru.gb.oseminar.view;
+package ru.gb.oseminar.view;
 
-import practice04.OSeminar_4_master.src.main.java.ru.gb.oseminar.data.Teacher;
+import ru.gb.oseminar.data.Teacher;
 
 import java.util.List;
 import java.util.logging.Logger;

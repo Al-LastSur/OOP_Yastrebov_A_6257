@@ -1,6 +1,6 @@
-package practice04.OSeminar_4_master.src.main.java.ru.gb.oseminar.service;
+package ru.gb.oseminar.service;
 
-import practice04.OSeminar_4_master.src.main.java.ru.gb.oseminar.data.Teacher;
+import ru.gb.oseminar.data.Teacher;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

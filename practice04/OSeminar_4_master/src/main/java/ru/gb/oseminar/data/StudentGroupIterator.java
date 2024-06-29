@@ -1,4 +1,4 @@
-package practice04.OSeminar_4_master.src.main.java.ru.gb.oseminar.data;
+package ru.gb.oseminar.data;
 
 import java.util.Iterator;
 import java.util.List;

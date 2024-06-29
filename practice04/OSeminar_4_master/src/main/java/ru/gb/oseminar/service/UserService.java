@@ -1,4 +1,4 @@
-package practice04.OSeminar_4_master.src.main.java.ru.gb.oseminar.service;
+package ru.gb.oseminar.service;
 
 import java.time.LocalDate;
 import java.util.List;

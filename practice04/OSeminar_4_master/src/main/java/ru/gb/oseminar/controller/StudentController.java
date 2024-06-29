@@ -1,10 +1,10 @@
-package practice04.OSeminar_4_master.src.main.java.ru.gb.oseminar.controller;
+package ru.gb.oseminar.controller;
 
-import practice04.OSeminar_4_master.src.main.java.ru.gb.oseminar.data.Student;
-import practice04.OSeminar_4_master.src.main.java.ru.gb.oseminar.data.Teacher;
-import practice04.OSeminar_4_master.src.main.java.ru.gb.oseminar.service.StudentGroupService;
-import practice04.OSeminar_4_master.src.main.java.ru.gb.oseminar.service.StudentService;
-import practice04.OSeminar_4_master.src.main.java.ru.gb.oseminar.view.StudentView;
+import ru.gb.oseminar.data.Student;
+import ru.gb.oseminar.data.Teacher;
+import ru.gb.oseminar.service.StudentGroupService;
+import ru.gb.oseminar.service.StudentService;
+import ru.gb.oseminar.view.StudentView;
 
 import java.time.LocalDate;
 import java.util.Collections;

@@ -1,9 +1,9 @@
-package practice04.OSeminar_4_master.src.main.java.ru.gb.oseminar.controller;
+package ru.gb.oseminar.controller;
 
 
-import practice04.OSeminar_4_master.src.main.java.ru.gb.oseminar.data.Teacher;
-import practice04.OSeminar_4_master.src.main.java.ru.gb.oseminar.service.TeacherService;
-import practice04.OSeminar_4_master.src.main.java.ru.gb.oseminar.view.TeacherView;
+import ru.gb.oseminar.data.Teacher;
+import ru.gb.oseminar.service.TeacherService;
+import ru.gb.oseminar.view.TeacherView;
 
 import java.time.LocalDate;
 
